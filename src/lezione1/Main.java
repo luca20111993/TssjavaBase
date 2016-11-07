@@ -5,6 +5,8 @@
  */
 package lezione1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author tss
@@ -15,8 +17,10 @@ public class Main {
     public static void main(String[] args) {
     
         System.out.println("Primo software started .....");
-        
-        
+    
+        String frase = JOptionPane.showInputDialog("Inserisci una frase da stampare");
+        System.out.println(frase);
+               
         
         
         
