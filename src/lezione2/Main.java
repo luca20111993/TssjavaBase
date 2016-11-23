@@ -14,6 +14,11 @@ package lezione2;
  */
 public class Main {
 
+    //Variabile statica 
+    private static int colore;
+    //variabile di istanza
+    private int carattere;
+
     /**
      * Da questo metodo partirà l'esecuzione del programma
      * 
@@ -37,6 +42,21 @@ public class Main {
          */
         
         System.out.println("Start esempio commenti ...");
+        
+        System.out.println("start esempio commenti...");
+        
+        //variabile locate
+        int totale = 10;
+        String frase;
+        
+        if (totale > 0) { 
+        //Variabile locale
+        int x = 5;
+        frase = "il totale è positivo";
+        }else{
+            int x = 10;
+            frase = "il totale è negativo";
+        }
         
         
         
