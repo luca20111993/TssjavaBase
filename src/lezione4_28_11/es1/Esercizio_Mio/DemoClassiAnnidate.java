@@ -12,7 +12,7 @@ package lezione4_28_11.es1.Esercizio_Mio;
 public class DemoClassiAnnidate {
 
     public static void main(String[] args) {
-       // Persona P = new Persona("mario", "rossi");
+        Persona P = new Persona("mario", "rossi");
         System.out.println(P.getCognome() + " , " + P.getNome());
 
     }
